@@ -20,6 +20,26 @@ body {
   perspective: 1000px;
 }
 
+.night h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Roboto";
+  color: #fff;
+  margin-top: 1em;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #208FC6, 0 0 30px #208FC6, 0 0 40px #208FC6, 0 0 55px #208FC6, 0 0 75px #208FC6;
+}
+
+@media screen and (max-width:574px) {
+  .night h1 {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Roboto";
+    color: #fff;
+    margin-top: 7em;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #208FC6, 0 0 30px #208FC6, 0 0 40px #208FC6, 0 0 55px #208FC6, 0 0 75px #208FC6;
+  }
+}
+
 .night {
   position: fixed;
   left: 50%;
